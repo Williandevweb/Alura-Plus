@@ -7,9 +7,26 @@
 
 body{
     background-color: var(--cor-de-fundo);
+    color: var(--branco-item-principal); 
 }
 
 *{
     margin: 0;
     padding: 0;
+}
+
+.container__principal{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container__img__principal{
+    display: flex;
+    justify-content: right;
+    height: 100%;
+}
+
+.container__img__principal img{
+    height: 100vw;
+
 }
